@@ -42,7 +42,8 @@ export default function LoginForm() {
         setDisableButton(false)
       })
 
-
+      setEmail('')
+      setPassword('')
 
   }
   return (
