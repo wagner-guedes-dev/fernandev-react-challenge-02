@@ -40,10 +40,11 @@ export default function LoginForm() {
       })
       .finally(()=>{
         setDisableButton(false)
+        setEmail('')
+        setPassword('')
       })
 
-      setEmail('')
-      setPassword('')
+      
 
   }
   return (
